@@ -1,0 +1,78 @@
+
+#home{
+    background-color: cadetblue;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: url('./Images/autumn-landscape-nature-background-dried-flowers-water-drops-rain-field-banner-selective-focus-75038244.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center{
+    margin: auto;
+    width: 80%;
+    height: 70%;
+    padding: 90px;
+    text-align: center;
+    color: #6a040f;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 38px;
+    font-weight: 400;
+}
+hr{
+    border:1px solid #6a040f;
+    color: #6a040f;
+    border-radius: 5px;
+}
+
+.social a{
+font-size: 40px;
+margin-right:  15px;
+}
+.social-h4{
+    color: #555b6e;
+}
+
+@media screen and (max-width:990px) {
+    .center{
+        margin: auto;
+        width: 90%;
+        height: 90%;
+        padding: 10px;
+        padding-top: 50px;
+        text-align: center;
+        color: #6a040f;
+        font-family: 'Poppins', sans-serif;
+ 
+    }  
+    h1{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    h4{
+        font-size: 14px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    hr{
+        border:1px solid #6a040f;
+        color: #6a040f;
+        border-radius: 5px;
+    }
+    
+    .social a{
+    font-size: 30px;
+    margin-right: 5px;
+    }
+    .social-h4{
+        color: #555b6e;
+    }
+    
+}
