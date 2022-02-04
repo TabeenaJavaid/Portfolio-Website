@@ -23,6 +23,10 @@
 	filter: grayscale(0);
 	    
 }
+.btn:hover{
+   background-color: #5465ff;
+
+}
  
 .textdiv{
     position :absolute;

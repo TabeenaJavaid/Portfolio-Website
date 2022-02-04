@@ -36,11 +36,11 @@ const Contacts=() => {
   }
 else{
   setSubmitted(false)
-  prompt('invalid email address')
+  alert('invalid email address')
  
 }} else{
     setSubmitted(false)
-      prompt('Fill all the required fields')
+    alert('Fill all the required fields')
     
   }
 }
