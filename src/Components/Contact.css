@@ -46,9 +46,7 @@ textarea{
          font-size: 14px !important;
          font-weight: 500;
      }
-     .card button{
-         margin-left: 25% !important;
-     }
+     
      .text-center{
         margin-left: 5%;
         font-size: 14px;
@@ -56,5 +54,9 @@ textarea{
     }
    .card h2{
        margin-top: 40% !important;
+   }
+
+   .card .btn-success{
+       margin-left: 32% !important;
    }
 }
