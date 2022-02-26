@@ -6,7 +6,7 @@ import './EachProject.css';
 const EachProject=({img, address, text, heading})=>{
     return(
        
-        <div className='each' style={{ marginTop: '50px', display: 'inline-flex', justifyContent: 'center', marginRight: '40px'}}>
+        <div className='each' style={{ marginBottom: '20px',marginTop: '50px', display: 'inline-flex', justifyContent: 'center', marginRight: '40px'}}>
             <div className='row'>
 
                 <div className="col-lg-6 col-md-4 ">
