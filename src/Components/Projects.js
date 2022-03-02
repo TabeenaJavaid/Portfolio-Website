@@ -8,6 +8,7 @@ import ImageSeeker from './Images/Image-Collage.jpg';
 import widgets from './Images/Widgets.jpg';
 import Ecom from './Images/Ecom.jpg'
 import TodoReact from './Images/TodoReact.jpg'
+import Contact from './Images/contact.jpg'
 import 'bootstrap';
 import './Projects.css'
 
@@ -19,6 +20,7 @@ const Projects=()=>{
            <hr/>
                 <div className='next' >
                     <EachProject address='https://tabeena-s-ecom-app.netlify.app' img={Ecom} text='Shop favourites at your doorstep.' heading='E-commerce App'/>
+                    <EachProject address='https://react-redux-contact-app-tj.netlify.app' img={Contact} text='Organise your contacts.' heading='Contacts App'/>
                     <EachProject address='https://todos-listing.netlify.app' img={Todos} text='Manage your day with list of todos.' heading='Todo list'/>
                     <EachProject address='https://scorekeeeper.netlify.app' img={ScoreKeeper} text='Track the score of 2 teams.' heading='Score-Keeper'  />
                     <EachProject address='https://calorie-track.netlify.app' img={CalorieTracker} text='Keep track of your calorie intake.' heading='Calorie-Tracker'  />
