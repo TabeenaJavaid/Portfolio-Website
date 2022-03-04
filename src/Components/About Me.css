@@ -1,0 +1,32 @@
+ul{
+    font-size: 18px;
+    color: #6b705c
+}
+.skills{
+    color: #9b2226;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px ;
+    text-decoration: 3px solid #9b2226 underline;
+}
+.about-para{
+   font-weight: 400;
+    font-size: 18px !important;
+    color:#6b705c;
+}
+ul{
+    margin-top: 20px
+}
+
+@media screen and (max-width: 500px){
+   
+    .skills{
+        font-size:16px;
+    }
+    .about-para{
+        font-size: 15px !important;
+    }
+    ul{
+       font-size: 15px;
+    }
+}

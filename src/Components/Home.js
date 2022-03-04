@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import './Home.css'
 
 function Home() {
@@ -8,6 +9,7 @@ function Home() {
       <h4>Hello, my name is</h4>
       <h1>Tabeena Javaid</h1>
       <h3>And I'm a <span>Front-end/(UI) Developer</span></h3>
+      <Link to='/about' className='btn' style={{backgroundColor:'#6a040f',color:'white',margin:'10px'}}> About me</Link>
       <hr/>
       <h4 className='social-h4'> Get in touch with me  </h4>
                 <div className='social'>

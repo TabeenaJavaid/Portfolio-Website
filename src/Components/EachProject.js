@@ -18,7 +18,7 @@ const EachProject=({img, address, text, heading})=>{
                             <h3 style={{ fontFamily: 'cursive' }} className="card-text">{heading}</h3>
                             <hr />
                             <p>{text}</p>
-                            <a href={address}  target='_blank' rel='noreferrer' class="btn btn-secondary" style={{marginLeft:'65px', marginTop:'10px',marginRight:'50px'}} >Get started</a>
+                            <a href={address}  target='_blank' rel='noreferrer' className="btn btn-secondary" style={{marginLeft:'65px', marginTop:'10px',marginRight:'50px'}} >Get started</a>
                         </div>
                     </div>
                 </div >
