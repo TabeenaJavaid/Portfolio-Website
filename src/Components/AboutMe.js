@@ -3,7 +3,7 @@ import './About Me.css'
 
 function AboutMe() {
   return (
-    <section id='articles'>
+    <section id='about'>
     <div className="container">
     <h2 style={{color:'#1d3557',textTransform:'uppercase',fontSize:'24px'}} className='text-center'>About Me</h2>
     <hr/>
